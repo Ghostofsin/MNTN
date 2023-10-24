@@ -1,0 +1,66 @@
+.header {
+  z-index: 5;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 64px;
+  width: calc(100% - 2 * 80px);
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8px;
+
+  a {
+    color: $white;
+    font-family: $font-sub;
+    font-size: 17px;
+
+    letter-spacing: 0px;
+    text-align: left;
+
+    &:hover {
+      color: $accent;
+    }
+  }
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.nav-link {
+  color: $white;
+  font-family: $font-sub;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.logo {
+  color: $white;
+  font-family: $font-base;
+  font-size: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+
+  &:hover {
+    color: $accent;
+  }
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@700&display=swap");
+
+body {
+  position: relative;
+}
+
+.container {
+  margin-left: 80px;
+  margin-right: 80px;
+  &--small {
+    margin-left: 229px;
+    margin-right: 229px;
+  }
+}
+
+.horisontal-line {
+  height: 2px;
+  width: 72px;
+  background-color: $accent;
+  margin-right: 30px;
+}
+
+.main_subtitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.main_subtitle__text {
+  color: $accent;
+  font-family: $font-sub;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  text-align: left;
+}
+
+.main_title {
+  font-family: $font-base;
+  color: $white;
+  font-size: 77px;
+  font-weight: 600;
+  text-align: left;
+
+  &--small {
+    color: $white;
+    font-weight: 600;
+    font-size: 50px;
+  }
+}
+
+.scroll-down {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.scroll-down__text {
+  z-index: 99;
+  font-family: $font-sub;
+  color: $white;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 16px;
+}

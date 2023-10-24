@@ -1,0 +1,51 @@
+.swiper {
+  --swiper-scrollbar-bg-color: rgba(255, 255, 255, 0.5);
+  --swiper-scrollbar-drag-bg-color: #fff;
+  width: 75px;
+  height: 200px;
+  color: $white;
+  font-family: $font-sub;
+  text-align: right;
+}
+
+.swiper-slide {
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  padding-right: 30px;
+
+  font-size: 14px;
+
+  &:hover {
+    font-size: 18px;
+  }
+}
+
+.swiper-scrollbar {
+  position: relative;
+  display: block !important;
+  height: 200px;
+  // background-color: $white;
+  // opacity: 50%;
+  border-radius: 0;
+  // background: $white;
+}
+
+.swiper-scrollbar-drag {
+  display: block !important;
+  position: absolute;
+  // top: 0;
+  left: 0;
+  transform: translateX(-50%);
+  height: 25%;
+  background-color: $white;
+  border-radius: 0;
+  opacity: 100%;
+}
+
+.swiper__link {
+  color: $white;
+}
